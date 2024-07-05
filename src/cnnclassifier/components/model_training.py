@@ -1,4 +1,5 @@
 import os
+import shutil
 import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
@@ -63,8 +64,10 @@ class Training:
 
     
     @staticmethod
-    def save_model(path: Path, model: tf.keras.Model):
+    def save_model(path: Path, model: tf.keras.Model,destination: Path = None):
         model.save(path)
+        if destination:
+            shutil.copytree(path, destination)
 
 
 
@@ -81,7 +84,11 @@ class Training:
             validation_data=self.valid_generator
         )
 
+        current_path = Path(__file__).parent
+        destination_path = current_path / "../model"
+
         self.save_model(
             path=self.config.trained_model_path,
-            model=self.model
+            model=self.model,
+            destination=destination_path.resolve()
         )
