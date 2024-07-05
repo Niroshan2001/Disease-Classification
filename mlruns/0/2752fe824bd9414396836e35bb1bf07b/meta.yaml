@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Disease-Classification/mlruns/0/2752fe824bd9414396836e35bb1bf07b/artifacts
+end_time: 1720159861670
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2752fe824bd9414396836e35bb1bf07b
+run_name: silent-swan-347
+run_uuid: 2752fe824bd9414396836e35bb1bf07b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720159825405
+status: 3
+tags: []
+user_id: Niroshan

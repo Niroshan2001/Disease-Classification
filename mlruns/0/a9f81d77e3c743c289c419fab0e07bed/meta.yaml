@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Disease-Classification/mlruns/0/a9f81d77e3c743c289c419fab0e07bed/artifacts
+end_time: 1719846153326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9f81d77e3c743c289c419fab0e07bed
+run_name: casual-calf-755
+run_uuid: a9f81d77e3c743c289c419fab0e07bed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719846138307
+status: 3
+tags: []
+user_id: Niroshan

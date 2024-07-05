@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Disease-Classification/mlruns/0/54b59f987e08445ea9db3554a5a50593/artifacts
+end_time: 1719848991120
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 54b59f987e08445ea9db3554a5a50593
+run_name: vaunted-worm-148
+run_uuid: 54b59f987e08445ea9db3554a5a50593
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719848966993
+status: 3
+tags: []
+user_id: Niroshan
